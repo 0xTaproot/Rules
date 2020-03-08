@@ -2,13 +2,13 @@ const consolelog = true;
 const forward_url = "http://192.168.50.50:19091/cyt"
 const $tool = tool();
 
-// var ssidMatched = ($network.wifi.ssid === 'Tomato50');
-
-// if (ssidMatched) {
-//     forward_body();
-// }
-
-forward_body();
+var ssidMatched = true;
+if ($tool.isSurge) {
+    ssidMatched = ($network.wifi.ssid === 'Tomato50');
+}
+if (ssidMatched) {
+    forward_body();
+}
 $done({ body: $response.body });
 
 function forward_body() {
@@ -21,7 +21,7 @@ function forward_body() {
             $tool.notify("育学园数据同步成功！", "", "");
             if (consolelog) console.log("Data:\n" + data);
         } else {
-            $tool.notify("育学园数据同步失败！", "", "");
+            // $tool.notify("育学园数据同步失败！", "", "");
             if (consolelog) console.log("Error:\n" + error);
         }
     })
