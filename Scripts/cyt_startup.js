@@ -10,7 +10,7 @@ if (obj.data && obj.data.appConfigSwitchList) {
             "type": 1
         },
         {
-            "status": 1,
+            "status": 0,
             "type": 2
         },
         {
