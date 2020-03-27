@@ -1,5 +1,5 @@
 const consolelog = true;
-const forward_url = "http://192.168.50.105:19091/cyt"
+const forward_url = "http://192.168.50.50:19091/cyt"
 const $tool = tool();
 
 var ssidMatched = true;
