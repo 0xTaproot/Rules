@@ -1,0 +1,10 @@
+#!name=CuiYuTao
+#!desc=育学园去开屏，同步BabyTracker
+
+[MITM]
+hostname = %APPEND% yxyapi*.drcuiyutao.com
+
+[Script]
+cyt_ads = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Goursat/Rules/master/script/cyt_ads.js,script-update-interval=0,pattern=^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/getsAd,type=http-response
+cyt_babylog = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Goursat/Rules/master/script/cyt_babylog.js,script-update-interval=0,pattern=^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/babyLog\/getdaylog,type=http-response
+cyt_startup = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Goursat/Rules/master/script/cyt_startup.js,script-update-interval=0,pattern=^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/sysConfig\/startup,type=http-response
