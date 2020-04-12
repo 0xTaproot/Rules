@@ -1,0 +1,9 @@
+#!name=阿里Host
+
+[Host]
+*.alipay.com = server:223.6.6.6
+*.tmall.com = server:223.6.6.6
+*.taobao.com = server:223.6.6.6
+*.tmall.com = server:223.6.6.6
+*.alicdn.com = server:223.6.6.6
+*.aliyun.com = server:223.6.6.6
