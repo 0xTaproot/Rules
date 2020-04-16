@@ -8,4 +8,4 @@ DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyun.com
 
 # Please notice this ruleset will trigger a DNS lookup.
-# IP-CIDR,45.116.152.0/22
+IP-CIDR,45.116.152.0/22,no-resolve
