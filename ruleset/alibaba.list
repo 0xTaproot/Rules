@@ -1,5 +1,8 @@
 # 迫于北京电信访问阿里的服务加载不出来图片
 
+USER-AGENT,TBIOS*,CELLULAR // 淘宝
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*,CELLULAR // 手机淘宝
+
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,taobao.com
