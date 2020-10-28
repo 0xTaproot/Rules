@@ -1,0 +1,72 @@
+{
+  "omniture": {
+    "trackLinks": {
+      "product_selections": {
+        "eVar5": "AOS : ireserve/availability || StoreLocator | config | 6_1inch > pacificblue > 512gb | Selected",
+        "linkName": "AOS : ireserve/availability || StoreLocator | config | 6_1inch > pacificblue > 512gb | Selected"
+      },
+      "available_stores": {
+        "eVar5": "AOS : ireserve/availability || StoreLocator | PRS | 1/1",
+        "linkName": "AOS : ireserve/availability || StoreLocator | PRS | 1/1"
+      }
+    },
+    "trackPage": {
+      "pageName": "AOS : ireserve/availability",
+      "storeId": "506738",
+      "currencyCode": "CNY",
+      "eVar4": "AOS : ireserve/availability",
+      "server": "mobileapp.apple.com",
+      "prop8": "AOS : ireserve/availability",
+      "prop40": "506738",
+      "eVar14": "zh-cn",
+      "prop2": "AOS : China Consumer",
+      "eVar3": "AOS : China Consumer",
+      "eVar19": "AOS: CN Consumer:ireserve/availability",
+      "prop20": "AOS: CN Consumer",
+      "prop19": "AOS: CN Consumer:ireserve/availability",
+      "eVar30": "mobileapp.apple.com"
+    }
+  },
+  "partNumber": "MGLM3CH/A",
+  "translations": {
+    "errorOKlabel": "好的",
+    "unavailableTitle": "距离最近的 {1} 家零售店今日无现货。",
+    "storePrefix": "Apple {storeName}",
+    "storesErrorTitle": "错误",
+    "unavailableTitleSingular": "最近的零售店今日无现货。",
+    "tradeinSummaryMessage": "到 Apple Store 零售店换购计划来以旧换新，购买新 iPhone 时享受折抵优惠。*如果您前往零售店取货，还可以选择按月免息付款方案。",
+    "locationOff": "按城市或邮政编码搜索，查看附近 Apple Store 零售店的 iPhone 供货情况。",
+    "pickupHeaderTitle": "前往 Apple Store 零售店提货",
+    "similarModel": "有现货的相似机型",
+    "pickupHeaderTitleCurrentLocation": "前往附近的 Apple Store 零售店取货",
+    "genericMessageError": "非常抱歉。处理你的请求时遇到问题。请稍后再试。",
+    "serviceUnavailable": "此服务目前无法使用。",
+    "getItDelivered": "或者选择送货上门",
+    "noStoresFoundTitle": "未搜索到零售店",
+    "availableSubheaderSingular": "{1} 家零售店有现货",
+    "pickupHeaderSubtitle": "你可以在以下任何地点预约购买你的新 iPhone。",
+    "noRecommendation": "附近的 Apple Store 零售店今日并无 null 机型现货可供提取。请稍后再来查看。",
+    "availableSubheader": "{1} 家零售店有现货",
+    "noStoresNearby": "你的当前位置附近未找到零售店。按城市或邮政编码搜索，查看 iPhone 在其他区域的供货情况。",
+    "retailCovers": "对不起，现在无法提供零售店信息。请稍后再来查看。",
+    "noAvailableTitle": "目前无法提供预约。",
+    "nextAvailableTitle": "下次可预约的时间为 "
+  },
+  "showTradeInDetails": "true",
+  "quoteDetails": {
+    "quotes": [
+      {
+        "storeNumber": "R320",
+        "partNumber": "MGLM3CH/A",
+        "availabilityInfo": "可供预约",
+        "availabilityStatus": "AVAILABLE_TODAY"
+      }
+    ],
+    "unavailableTitle": "距离最近的 {1} 家零售店今日无现货。",
+    "locationOff": "按城市或邮政编码搜索，查看附近 Apple Store 零售店的 iPhone 供货情况。",
+    "isAvailable": true,
+    "header": "前往 Apple Store 零售店提货",
+    "noStoresFoundTitle": "未搜索到零售店"
+  },
+  "totalPrice": "RMB 22,198"
+}
